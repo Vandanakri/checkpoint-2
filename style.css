@@ -51,13 +51,13 @@ table {
 .header-div{
 	position: absolute;
 	left: 20%;
+	z-index: 2;
 }
 .background-img{
 	background-image: url(./media/banner.jpg);
 	background-size: cover;
 	height: 80vh;
-	width: 100vw;
-	
+	width: 98vw;
 }
 .container{
 	max-width: 900px;
