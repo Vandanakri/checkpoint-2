@@ -50,7 +50,7 @@ table {
 /*custom*/
 .header-div{
 	position: absolute;
-	left: 20%;
+	left: 16%;
 	z-index: 2;
 }
 .background-img{
@@ -70,10 +70,11 @@ table {
 	background-color: white;
 	border-radius: 50%;
 	margin-right: 10px;
+	
 }
 .link{
 	margin-top: 50px;
-	margin-left: 420px;
+	margin-left: 400px;
 }
 .flex {
 	display: flex;
@@ -84,11 +85,12 @@ table {
 .col-1{
     background: white;
     display: flex;
-	margin-top: -8px;
+	  margin-top: -8px;
 }
 .col-2{
 	margin-top: 20px;
 	position: fixed;
+	
 }
 h1{
     margin-left: 20px;
@@ -105,8 +107,6 @@ h1{
 }
 .line{
    margin-top: 15px;
-
-	
 }
 .more{
 	margin-top: 15px;
@@ -115,7 +115,6 @@ h1{
 	color: red;
 	
 }
-
 h3{
     color: white;
     text-align: center;
@@ -136,19 +135,20 @@ h3{
 }
 .first-btn{
 	margin-top: 20px;
-	margin-left: 80px;
+	margin-left: 70px;
 }
 a{
 	text-decoration: none;
 }
 .text{
 	position: absolute;
-	left: 40%;
+	left: 37%;
 	top: 40%;
 }
 .digital{
 	color: white;
 	font-size: 30px;
+	
 }
 .round-1{
 	height: 10px;
@@ -262,16 +262,15 @@ a{
 	margin-top: 55px;
 	width: 60%;
 }
-.para-1{
-	
-}
 .para-2{
 	margin-top: 20px;
 	
 }
-.color{
-	color: red;
-	font-size: 12px;
+.color-home{
+	border-top: 2px solid red;
+	border-bottom: 2px solid rgb(255, 252, 252);
+	padding: 50px 0px;
+	color: red;	
 }
 .side-background{
 	margin-left: 30px;
@@ -366,8 +365,14 @@ margin-top: 30px;
 	color: rgb(234,81,62);
 }
 .footer{
-	margin-top: 150px;
+	margin-top: 200px;
 	width: 100%;
+}
+.top{
+margin-left: 480px;
+background-color: rgb(234,81,62);
+color: white;
+padding: 10px;
 }
 .box-4{
 	padding: 10px;
@@ -381,19 +386,12 @@ margin-top: 30px;
 	margin-top: 100px;
 	
 }
-/*gallery*/
 
-/* .side-box{
-	height: 500px;
-	width: 500px;
-	background-color:rgb(234,81,62) ;
-} */
 .sidebar{
 	background-color:rgb(234,81,62) ;
 	padding: 12px;
-	height: 900px;
+	height: 600px;
 	width: 400px;
-	/* margin-bottom: 100px; */
 	position: fixed;
 	flex: 0 1 80%;
 }
@@ -411,29 +409,25 @@ margin-top: 30px;
 .span{
 	color:white ;
 	font-style: normal;
-	font-size: 50px;
+	font-size: 40px;
 	vertical-align: middle;
 }
 .home{
 	border: 2px solid white;
-	width: 70px;
-	margin-top:50px;
-	margin-left: 80px;
-	text-align: center;
-	height: 20px;
-	padding-top: 5px;
+	margin-left: 70px;
 	color: white;
 }
+
 .side-h1{
 	color: white;
 	font-size: 35px;
-	margin-top: 450px;
+	margin-top: 150px;
 }
 .side-h6{
 	font-size: 12px;
 	margin-left: 20px;
 	line-height: 2;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .side-round-1{
 	border: 2px solid white;
@@ -441,7 +435,7 @@ margin-top: 30px;
 	width: 40px;
   border-radius: 50%;
 	margin-right: 20px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .side-round-1 a {
 	font-size: 20px;
